@@ -1,18 +1,13 @@
 //user imputs choice
 //Computer makes a random choice out of three options
-
-
-function getComputeChoice() {
+function game() {
 
 }
 
-function getHumnaChoice() {
-
+function playRound(playerSelection, computerSelection) {
+console.log(playerSelection)
 }
+const playerChoice = "rock"
+const comp = "paper"
 
-var humanScore = 0;
-    computeScore = 0
-
-function playRound() {
-    
-}
+playRound(playerChoise,comp)
